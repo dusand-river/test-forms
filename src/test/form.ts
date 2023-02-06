@@ -1,5 +1,6 @@
 import { AxiosResponse } from "axios";
 import formService from "../formService/service";
+import loadForms from "../formService/loadForms";
 
 function processData(response: AxiosResponse) {
   const { data, status } = response;
@@ -12,9 +13,11 @@ function processData(response: AxiosResponse) {
   });
 }
 
-formService.getForms("test").then(
-  (response: AxiosResponse) => {
-    processData(response);
-  },
-  (error) => console.log(error)
-);
+// formService.getForms("test").then(
+//   (response: AxiosResponse) => {
+//     processData(response);
+//   },
+//   (error) => console.log(error)
+// );
+
+loadForms();
