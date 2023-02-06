@@ -25,17 +25,7 @@ const FAKEFORMS = [
 const sourceId = "test";
 
 export default function ListForms() {
-  const [forms, setForms] = useState([]);
-
-  //   const loadForms = () => {
-  //     formService.getForms("test").then(
-  //       (response: AxiosResponse) => {
-  //         // do something!!!
-  //         console.log("loadForms", response);
-  //       },
-  //       (error) => console.log(error)
-  //     );
-  //   };
+  //const [forms, setForms] = useState([]);
 
   useEffect(() => {
     loadForms();
