@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
-function onPress(name: void) {
-  throw new Error("Function not implemented.");
-}
+// function onPress(name: void) {
+//   throw new Error("Function not implemented.");
+// }

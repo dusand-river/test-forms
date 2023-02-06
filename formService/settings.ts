@@ -10,13 +10,7 @@ type setting = {
 
 const formSettings: setting[] = [
   {
-    id: "david",
-    accessId: "Y3VO-26SD-XJBC-RBO4",
-    subdomain: "bhycadmin",
-    format: "json",
-  },
-  {
-    id: "james",
+    id: "test",
     subdomain: "bhyctest",
     accessId: "AXLK-1Q4V-GMTC-UETL",
     format: "json",
